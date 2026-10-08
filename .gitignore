@@ -1,0 +1,27 @@
+# WireGuard keys and configs with real values
+*.key
+*.pem
+*.conf
+wg*.conf
+private*
+
+# Environment and secret files
+.env
+.env.*
+*secret*
+*credential*
+
+# Router and app backups
+*.tar.gz
+*.bin
+*backup*
+
+# Private reference docs (keep these offline)
+*.docx
+*.xlsx
+*.pdf
+private-notes/
+
+# OS clutter
+.DS_Store
+Thumbs.db
